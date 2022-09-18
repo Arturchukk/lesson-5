@@ -1,0 +1,115 @@
+body {
+    line-height: 1;
+    font-family: 'Open sans';
+    color: rgb(15, 14, 16);
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Bold.woff2') format('woff2'),
+        url('../font/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../font/Gilroy-Regular.woff2') format('woff2'),
+        url('../font/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wrapper {
+    flex-direction: column;
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+}
+.header {
+    background-color: rgb(87, 87, 229);
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+}
+.header__logo {
+    display: inline-block;
+    color: #fff;
+}
+.main {
+}
+.main__image {
+    padding: 40px 0px 0px 0px;
+    display: block;
+}
+.main__title {
+    font-size: 50px;
+}
+.title {
+    color: rgb(4, 3, 3);
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+    font-family: 'Gilroy, sans-serif';
+    font-weight: bold;
+}
+.main__text {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.main__link {
+    color: rgb(125, 125, 249);
+}
+.main__link:hover {
+    text-decoration: underline;
+}
+.text {
+    word-spacing: 5px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.title-line__through {
+    text-decoration: line-through;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.title-overline {
+    text-decoration: overline;
+}
+.color {
+    color: rgb(140, 72, 202);
+}
+.text-color {
+    color: rgb(77, 217, 8);
+}
+.text:last-child {
+    margin-bottom: 0px;
+}
+.text__link {
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+.text__link:hover {
+    text-decoration: underline;
+}
+.main__program {
+}
+.main__block {
+    margin: 50px 0px 0px 0px;
+}
+.footer {
+    background-color: rgb(14, 14, 15);
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+}
+.footer-text {
+    color: #fff;
+    font-size: 14px;
+}
